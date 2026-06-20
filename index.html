@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Game</title>
+    <style>
+       .main{
+           display: flex; 
+           gap: 5px;
+           flex-wrap: wrap;
+      }
+      .card {
+        border: 1px solid;
+        width: 150px;
+        text-align: center;
+        overflow: hidden;
+        margin: 10px;
+        border-radius: 10px;
+        outline: none;
+      }
+      .profileImage img {
+        margin-top: 5px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+      <h1>Card Game</h1>
+      <form>
+          <input type="text" placeholder="Enter Image url" /><br /><br />
+          <input type="text" placeholder="Enter Name" /><br /><br />
+          <input type="text" placeholder="Enter Description" /><br /><br />
+          <input type="submit" value="Submit" />
+        </form>
+    <div class="main">
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
