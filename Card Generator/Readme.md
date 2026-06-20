@@ -76,24 +76,6 @@ The project creates cards like this:
 
 ---
 
-## 💻 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/wasifashraf01/Card-Generator.git
-```
-
-Open:
-
-```bash
-index.html
-```
-
-in your browser.
-
----
-
 ## 🧠 Learning Concepts
 
 This project helped practice:
